@@ -1,0 +1,183 @@
+
+.nbaBracketModule {
+	width: 1100px;
+	height: 981px;
+	margin: 0 auto; 
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	background: url(../logos/bracket_template.png);
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	position: relative; 
+}
+
+/* --- PLAYOFFS BRACKET ---------------------------------------- */
+
+
+
+
+
+
+/* --- USER BRACKET ---------------------------------------- */
+
+
+.nbaBracketModule .east .firstRound {
+	height: 873px; 
+	width: 132px;
+    right: 58px;
+    top: 100px;
+	/*background-color: yellow; 
+	opacity: 0.6; */
+}
+
+.nbaBracketModule .east .confSemifinals {
+	height: 800px; 
+	width: 132px;
+    right: 185px;
+    top: 150px;
+	/*background-color: yellow; 
+	opacity: 0.6; 	*/
+}
+
+.nbaBracketModule .east .confFinals {
+	height: 570px; 
+	width: 132px;
+    right: 315px;
+    top: 255px;
+	/*background-color: yellow; 
+	opacity: 0.6; 	*/
+}
+
+.nbaBracketModule .east .confChamp {
+	height: 140px; 
+	width: 132px;
+    right: 448px;
+    top: 600px;
+	/*background-color: yellow; 
+	opacity: 0.6;	 */	
+}
+
+
+.nbaBracketModule .west .firstRound {
+	height: 873px; 
+	width: 132px;
+    left: 52px;
+    top: 100px;
+	/*background-color: yellow; 
+	opacity: 0.6; */
+}
+
+.nbaBracketModule .west .confSemifinals {
+	height: 800px; 
+	width: 132px;
+    left: 182px;
+    top: 150px;
+	/*background-color: yellow; 
+	opacity: 0.6; */
+}
+
+.nbaBracketModule .west .confFinals {
+	height: 570px; 
+	width: 132px;
+    left: 312px;
+    top: 253px;
+	/*background-color: yellow; 
+	opacity: 0.6;  */
+}
+
+.nbaBracketModule .west .confChamp {
+	height: 140px; 
+	width: 132px;
+    left: 443px;
+    top: 330px;
+	/*background-color: yellow; 
+	opacity: 0.6; */	
+}
+
+.nbaBracketModule .finals .finalsChamp {
+	height: 125px; 
+	width: 150px;
+    left: 475px;
+    top: 154px; 
+	/*background-color: yellow; 
+	opacity: 0.6;	*/
+}
+
+.nbaBracketModule .finals .finalsGames {
+	height: 50px; 
+	width: 150px;
+    left: 475px;
+    top: 490px; 
+	/* background-color: yellow; 
+	opacity: 0.6;	*/
+}
+
+.nbaBracketModule .instructions {
+	height: 210px; 
+	width: 400px;
+    left: 345px;
+    top: 760px; 
+	/*background-color: yellow; 
+	opacity: 0.6;*/
+}
+
+.nbaBracketModule .firstRound, .nbaBracketModule .confSemifinals,
+.nbaBracketModule .confFinals, .nbaBracketModule .confChamp,
+.nbaBracketModule .finalsChamp, .nbaBracketModule .finalsGames,
+.nbaBracketModule .instructions {
+	position: absolute; 
+}
+
+.nbaBracketModule .firstRound .matchup {
+	margin: 0 auto; 
+	margin-top: 9px; 
+	margin-bottom: 10px; 
+    height: 199px; 
+    width: 119px; 
+	/*background-color: green; */ 
+}
+
+.nbaBracketModule .confSemifinals .matchup {
+	margin: 0 auto; 
+	margin-top: 10px; 
+	margin-bottom: 119px; 
+    height: 300px; 
+    width: 122px; 
+	/*background-color: green;*/
+}
+
+.teamLogo, .teamLogo2 {
+	width: 75px;
+	height: 50px;	
+}
+
+.teamLogo3 {
+	width: 150px;
+	height: 100px;	
+}
+
+.firstRound .teamLogo, .firstRound .selectGames {
+	margin-top: 14px; 
+}
+
+.confSemifinals .teamLogo2, .confSemifinals .selectGames {
+	margin-top: 18px; 
+	margin-bottom: 53px; 	
+}
+
+.confFinals .teamLogo2, .confFinals .selectGames {
+	margin-top: 25px; 
+	margin-bottom: 153px; 	
+}
+
+.confChamp .teamLogo2, .confChamp .selectGames{
+	margin-top: 27px; 
+}
+
+.finals .teamLogo3 {
+	margin-top: 13px; 
+}
+
+.finals .finalsGames .selectGames {
+	margin-top: 18px; 
+}

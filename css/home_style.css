@@ -1,0 +1,217 @@
+
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	text-align: center; 
+	margin:0;
+	color:#232323;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: top;
+	/*background: url('http://i.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-section/1853/elements/playoffs/2015/bracket/bg.skin.playoffs.jpg'); 
+	/*background-size: 100% 100%; */
+    background-repeat: no-repeat;
+}
+
+#pageContainer {
+	width: 1250px;
+	height: 1300px;
+	padding-top: 20px; 
+	margin: 0 auto; 
+	float: top; 
+	text-align: center; 
+	z-index: 1;
+	/*background-color: yellow; */
+}
+
+#tabCtrl {
+	width: 1200px; 
+	height: 1090px;
+	margin: 0 auto; 
+	padding-bottom: 20px; 
+	margin-top: 20px; 
+	/*background-color: red;
+	border-style: solid;
+	border-color: gray; */
+	text-align: center; 
+	z-index: 1;
+}
+
+
+/* ----- MENU BAR ------  */
+
+#menu {
+	margin: 0 auto; 
+	width: 1200px; 
+	height: 50px;
+	/*border-style: solid; */
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#menu li.active {
+    background-color: #4CAF50;
+}
+
+/* ----- END MENU BAR -------  */
+
+
+/* ----- POPUPS (Login, Register, Create/Join Pool) -------  */
+
+#regPopup{
+	position: absolute; 
+	background: #FFFFFF;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 100px;
+	margin-left: 400px; 
+    width: 350px; 
+    height: 425px;
+    font-family: verdana;
+    font-size: 13px;
+    padding: 20px;
+    z-index: 10000000000; 
+    display: none;
+}
+
+
+#loginPopup {
+	position: absolute; 
+	z-index: 1000;  
+	text-align: center;
+	background: #FFFFFF;
+	margin-top: 125px;
+	margin-left: 400px;	
+	font-family: verdana;
+    font-size: 13px;
+	width: 350px; 
+    height: 275px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	display: none;	    
+}
+
+.loginForm input {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+
+.loginForm input[type="submit"] {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.loginForm input[type="submit"]:hover {
+  background: #DDD;
+}
+
+.loginForm input[type="submit"]:active {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #C9C9C9;
+}
+
+.loginForm .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.loginForm .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+#poolsPopup{
+	position: absolute; 
+	background: #FFFFFF;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 100px;
+	margin-left: 375px; 
+    width: 400px; 
+    height: 400px;
+    font-family: verdana;
+    font-size: 13px;
+    padding: 20px;
+    z-index: 10000000000; 
+    display: none;
+}
+
+/* ----- END POPUPS  -------  */
+
+
+/* ----- CLEAR/SAVE PICKS BUTTONS -------  */
+
+.clearPicksButton {
+	background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.savePicksButton {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* ----- END CLEAR/SAVE PICKS BUTTONS -------  */
+
